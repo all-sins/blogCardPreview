@@ -1,5 +1,7 @@
 # Blog Preview Card  
 
+![blogPreviewCard](https://github.com/user-attachments/assets/6d9cbe81-e97b-4bf9-a499-4d32b2f9aed8)
+
 This is a simple blog preview card built with HTML and CSS. It displays an article preview with an image, title, description, author, and publication date.  
 
 ## Features  
