@@ -1,6 +1,7 @@
 # Blog Preview Card  
 
 https://responsiveblogcardpreview.netlify.app/
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/538b2be7-5ce1-42a2-b022-bea81a9386dd/deploy-status)](https://app.netlify.com/sites/responsiveblogcardpreview/deploys)
 
 ![blogPreviewCard](https://github.com/user-attachments/assets/6d9cbe81-e97b-4bf9-a499-4d32b2f9aed8)
