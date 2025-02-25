@@ -17,10 +17,4 @@ This is a simple blog preview card built with HTML and CSS. It displays an artic
 ## Files  
 - `index.html` → Structure of the blog card  
 - `style.css` → Styling for the card  
-- `assets/` → Contains images and fonts  
-
-## Preview  
-The card is centered on a yellow background and styled with a minimal, clean aesthetic.  
-
----
-Enjoy coding! 🚀  
+- `assets/` → Contains images and fonts
