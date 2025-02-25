@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Figtree-Italic-VariableFont_wght";
+    src: url("assets/fonts/Figtree-Italic-VariableFont_wght.ttf") format(truetype);
+}
+
+@font-face {
+    font-family: "Figtree-VariableFont_wght";
+    src: url("assets/fonts/Figtree-VariableFont_wght.ttf") format(truetype);
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Figtree-VariableFont_wght";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #F5D04E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 380px;
+    height: 520px;
+    background-color: #FFFFFF;
+    border: 2px;
+    border-color: #030500;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+
+.svg-rounder {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-bottomBlock {
+    padding-top: 20px;
+}
+
+.status-tag {
+    height: 30px;
+    width: 90px;
+    padding: 0;
+    margin: 0;
+    background-color: #EECB4B;
+    border-radius: 5px;
+    overflow: hidden;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-date {
+    font-weight: 600;
+}
+
+.card-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.card-title:hover {
+    color: #EBCC57;
+}
+
+.card-description {
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #9C9C9C;
+}
+
+.card-footer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.card-footer p:nth-child(2) {
+    padding-left: 10px;
+}
+
+.card-footer-image {
+    width: 35px;
+    height: 35px;
+}
+
+.card-footer-text {
+    font-weight: 900;
+}
+
+/* Phones */
+@media (max-width: 768px) {
+    .card {
+        width: 325px;
+        height: 500px;
+        box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1);
+        border-radius: 10px;
+    }
+    
+    .card-date {
+        font-size: small;
+    }
+    
+    .card-title {
+        font-size: larger;
+    }
+}
